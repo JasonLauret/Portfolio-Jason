@@ -2,6 +2,33 @@ body {
     margin-top: 80px;
 }
 
+.btn {
+    background-color: rgb(255, 193, 7);
+    color: white;
+    font-weight: bold;
+    padding: 10px 30px;
+}
+
+.btn:hover {
+    background-color: rgb(185, 139, 0);
+    border: 1px solid rgb(185, 139, 0);
+    color: white;
+}
+
+.titre_section {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px 
+}
+
+.sous_titre {
+    text-align: center;
+    color: rgb(148, 148, 148);
+    font-size: 24px;
+    font-style: italic;
+}
+
 /* --------------Navbar-------------- */
 .navbar {
     text-transform: uppercase;
@@ -44,6 +71,12 @@ body {
 
 .header_item h1 {
     font-size: 80px;
+}
+
+/* --------------Compétence-------------- */
+
+.competence {
+    padding-top: 10vh;
 }
 
 /* --------------Réalisation-------------- */
