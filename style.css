@@ -1,0 +1,106 @@
+/* ____btn ouvrir modal____ */
+
+.realisation-section {
+    max-width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.realisation-section .realisation-lien {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+.realisation-section .realisation-lien .realisation-survol {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 200, 0, 0.9);
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity ease-in-out 0.25s;
+}
+.realisation-section .realisation-lien .realisation-survol .realisation-survol-content {
+    font-size: 1.25rem;
+    color: white;
+}
+.realisation-section .realisation-lien:hover .realisation-survol {
+    opacity: 1;
+}
+
+/* ____Fin btn ouvrir modal____ */
+
+.btn:focus , .btn:active {
+    outline: none !important;
+    box-shadow: none;
+}
+
+.modal1 > .modal-dialog {
+    min-width: 98%;
+}
+
+.modal2 > .modal-dialog {
+    min-width: 70%;
+}
+
+.btn-fermer-modal {
+    width: 100px;
+}
+
+.btn-fermer-modal:hover {
+    color: rgb(173, 173, 173);
+    cursor: pointer;
+}
+
+.titre-modal h2 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.modal2 {
+    background-color: rgb(33, 37, 41);
+}
+
+.img-2 button, .img-3 button, .img-4 button {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.img-animalerie {
+    display: grid;
+    width: 45rem;
+    grid-gap: 10px;
+    grid-template-areas:
+    "a b"
+    "a c"
+    "a d";
+}
+
+.img-animalerie img.btn-image, .img-animalerie img {
+    border: 1px solid rgb(255, 193, 7);
+    border-radius: 5px;
+}
+
+.img-animalerie img.btn-image:hover {
+    border: 1px solid rgb(170, 133, 22);
+}
+
+.img-animalerie .img-1 {
+    grid-area: a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img-animalerie .img-2 {
+    grid-area: b;
+}
+
+.img-animalerie .img-3 {
+    grid-area: c;
+}
+
+.img-animalerie .img-4 {
+    grid-area: d;
+}
