@@ -1,11 +1,56 @@
-/* -----Navbar----- */
+body {
+    margin-top: 80px;
+}
+
+/* --------------Navbar-------------- */
 .navbar {
     text-transform: uppercase;
     font-size: 15px;
+    height: 80px;
+    letter-spacing: 2px;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-/* ____btn ouvrir modal____ */
+.navbar .nav-link{
+    color: rgb(255, 255, 255) !important;
+    padding-right: 20px !important;
+}
 
+.navbar .nav-link:hover {
+    color: rgb(255, 193, 7) !important;
+    padding-top: 5px;
+}
+
+/* --------------Header-------------- */
+.header_img {
+    background: url("assets/img/header-bureau.jpg") no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 92vh;
+}
+
+.header_item {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.header_item p {
+    font-size: 50px;
+}
+
+.header_item h1 {
+    font-size: 80px;
+}
+
+/* --------------Réalisation-------------- */
+
+/* _____________Modal_____________ */
+
+/* btn ouvrir modal */
 .realisation-section {
     max-width: 20rem;
     margin-left: auto;
