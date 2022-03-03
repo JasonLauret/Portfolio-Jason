@@ -88,7 +88,60 @@ body {
     padding-bottom: 10vh;
 }
 
-/* _____________Modal_____________ */
+/* ___Modal___ */
+/*Voir vers la fin du fichier*/
+
+/* --------------Experience-------------- */
+.experience {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+/* Pour le fil d'ariane voir plus bas */
+
+/* --------------A propos-------------- */
+.aPropos {
+    background-color: rgb(245, 245, 245);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.row {
+    --bs-gutter-x: 0; /*Permet d'eviter une scroll-bar horizontale*/
+}
+
+/* .carte {
+    background-color: white;
+    min-width: 700px;
+    min-height: 500px;
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 10px;
+}
+
+.carte {
+    padding: 30px;
+} */
+
+.card {
+    margin-left: 50px;
+    border-radius: 10px
+}
+
+.carte_img img {
+    border: 1px solid black;
+    border-radius: 100%;
+    max-width: 250px;
+}
+
+.card_list_1 > li {
+    list-style: none;
+}
+
+/* --------------Contact-------------- */
+
+
+
+/* ___Modal___ */
 
 /* btn ouvrir modal */
 .realisation-section {
@@ -238,14 +291,9 @@ body {
 .img-animalerie .img-4 {
     grid-area: d;
 }
+/* ___Fin de Modal___ */
 
-/* --------------Experience-------------- */
-.experience {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-}
-
-/* _____________Fil d'ariane_____________ */
+/* ___Fil d'ariane___ */
 .timeline {
     position: relative;
     padding: 0;
@@ -419,3 +467,4 @@ body {
         padding: 0 100px 20px 20px;
     }
 }
+/* ___Fin du fil d'ariane___*/
