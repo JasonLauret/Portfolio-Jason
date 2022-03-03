@@ -2,6 +2,10 @@ body {
     margin-top: 80px;
 }
 
+.row {
+    --bs-gutter-x: 0; /*Permet d'eviter une scroll-bar horizontale*/
+}
+
 .btn {
     background-color: rgb(255, 193, 7);
     color: white;
@@ -106,8 +110,12 @@ body {
     padding-bottom: 10vh;
 }
 
-.row {
-    --bs-gutter-x: 0; /*Permet d'eviter une scroll-bar horizontale*/
+#modalCV > .modal-dialog {
+    min-width: 96%;
+}
+
+.QRcode {
+    min-width: 10px;
 }
 
 /* .carte {
@@ -138,7 +146,6 @@ body {
 }
 
 /* --------------Contact-------------- */
-
 
 
 /* ___Modal___ */
@@ -184,14 +191,6 @@ body {
     box-shadow: none;
 }
 
-.modal1 > .modal-dialog {
-    min-width: 98%;
-}
-
-.modal2 > .modal-dialog {
-    min-width: 70%;
-}
-
 .btn-fermer-modal {
     width: 100px;
 }
@@ -199,6 +198,14 @@ body {
 .btn-fermer-modal:hover {
     color: rgb(173, 173, 173);
     cursor: pointer;
+}
+
+.modal1 > .modal-dialog {
+    min-width: 98%;
+}
+
+.modal2 > .modal-dialog {
+    min-width: 70%;
 }
 
 .titre-modal h2 {
