@@ -23,7 +23,8 @@ body {
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
-    letter-spacing: 1px 
+    letter-spacing: 1px;
+    margin-bottom: 70px;
 }
 
 .sous_titre {
@@ -133,7 +134,44 @@ body {
     list-style: none;
 }
 
+/* --------------Contact-------------- */
 
+.contact {
+    background: url("assets/img/contact/map-image.png") no-repeat;background-color: #212529;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.info_contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(209, 209, 209, 0.657);
+    background-color: rgba(0, 0, 0, 0.308);
+    border-radius: 10px;
+    min-height: 200px;
+}
+
+.info_contact:hover {
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgb(255, 200, 0);
+    border-radius: 10px;
+    color: white;
+    cursor: default;
+    align-self: start;
+}
+
+.info_contact > a {
+    color: rgb(255, 200, 0);
+}
+.info_contact > a:hover {
+    color: rgb(202, 158, 0);
+}
+/*_____________________________________________________*/
+  
 /* ___Modal___ */
 
 /* btn ouvrir modal */
