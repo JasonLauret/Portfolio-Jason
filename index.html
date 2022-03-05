@@ -172,24 +172,6 @@
         <h1 class="titre_section">A propos de moi</h1>
         <p class="sous_titre">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
         <div class="row mt-5">
-            <!--<div class="col-6">
-                <div class="carte d-flex ms-5">
-                    <div class="carte_img">
-                        <img class="img-fluid" src="assets/img/aPropos/photo_Jason.jpg" alt="Photo de Jason">
-                    </div>
-                    <div class="ms-5">
-                        <h3>Lauret Jason</h3>
-                        <p class="mt-3"><span class="fw-bold">Profession:</span> Dévellopeur web</p>
-                        <p><span class="fw-bold">Date de naissance:</span> 29/10/96</p>
-                        <p><span class="fw-bold">Langue parler:</span> Français (natif), Anglais (école)</p>
-                        <p><span class="fw-bold">Activité et loisir:</span><br>
-                                <span class="fw-bold">Loisirs:</span> Football en club (depuis 2005),randonnées, cinéma, bricolage.<br>
-                                <span class="fw-bold">Voyages:</span> Danemark, Italie, Irlande, Sénégal,Espagne, Angleterre, Hongrie, Tunisie, Île de la Réunion.<br>
-                                <span class="fw-bold">Projets:</span> Projet solidaire en Casamance, au Sénégal(2016).
-                        </p>
-                    </div>
-                </div>
-            </div>-->
             <div class="col-6">
                 <div class="card">
                     <div class="card-body d-flex">
@@ -211,9 +193,22 @@
                         </ul>
                     </div>
                     <div class="card-footer bg-white row">
+                        <p class="fw-bold mb-4">Vous pouvez voir aussi:</p>
+                        <div class="col-6">
+                            <div class="px-4">
+                                <div class="d-flex justify-content-evenly">
+                                    <div class="text-center">
+                                        <img class="img-fluid QRcode" src="assets/img/aPropos/QRcode_Linkedin.png" alt="QRcode de mon compte linkedin">
+                                    </div>
+                                    <div class="text-center">
+                                        <img class="img-fluid QRcode" src="assets/img/aPropos/QRcode_GitHub.png" alt="QRcode de mon compte Github">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <!-- Modal CV -->
                         <!-- Button trigger modal -->
-                        <div class="col-6">
+                        <div class="col-6 d-flex justify-content-center align-items-center">
                             <button type="button" class="btn" data-bs-toggle="modal" href="#modalCV">
                                 Consulter mon CV
                             </button>
@@ -226,26 +221,13 @@
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body text-center">
+                                            <p>Consulter mon linkedin</p>
                                             <img class="img-fluid" src="assets/img/aPropos/cvJasonLauret.jpg" alt="CV de Jason Lauret">
                                         </div>
                                         <div class="modal-footer">
+                                            <p>Consuler mon Github</p>
                                             <button type="button" class="btn" data-bs-dismiss="modal">Fermer</button>
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-6 border-start">
-                            <div class="ps-4">
-                                <p class="fw-bold">Vous pouvez voir aussi:</p>
-                                <div class="d-flex justify-content-between">
-                                    <div class="text-center">
-                                        <p>Mon compte Linkedin</p>
-                                        <img class="img-fluid QRcode" src="assets/img/aPropos/QRcode_Linkedin.png" alt="QRcode de mon compte linkedin">
-                                    </div>
-                                    <div class="text-center">
-                                        <p>Mon compte GitHub</p>
-                                        <img class="img-fluid QRcode" src="assets/img/aPropos/QRcode_GitHub.png" alt="QRcode de mon compte Github">
                                     </div>
                                 </div>
                             </div>
@@ -259,6 +241,9 @@
             </div>
         </div>
     </section>
+
+    
+        
     <!-- _________________________Modal_________________________ -->
     <!-- Modal Limeux Maurane -->
     <div class="modal fade modal1" id="openModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">

@@ -115,20 +115,8 @@ body {
 }
 
 .QRcode {
-    min-width: 10px;
+    max-width: 100px;
 }
-
-/* .carte {
-    background-color: white;
-    min-width: 700px;
-    min-height: 500px;
-    border: 1px solid rgb(180, 180, 180);
-    border-radius: 10px;
-}
-
-.carte {
-    padding: 30px;
-} */
 
 .card {
     margin-left: 50px;
@@ -144,8 +132,6 @@ body {
 .card_list_1 > li {
     list-style: none;
 }
-
-/* --------------Contact-------------- */
 
 
 /* ___Modal___ */
