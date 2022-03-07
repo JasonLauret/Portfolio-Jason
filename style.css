@@ -32,8 +32,8 @@ body {
     color: rgb(148, 148, 148);
     font-size: 24px;
     font-style: italic;
+    margin-bottom: 70px;
 }
-
 /* --------------Navbar-------------- */
 .navbar {
     text-transform: uppercase;
@@ -43,14 +43,29 @@ body {
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-.navbar .nav-link{
+/* Icon toggle */
+.navbar-toggler {
+    border: 1px solid white !important;
+    color: white !important;
+}
+
+.navbar-toggler-icon {
+    color: white !important;
+}
+/* fin Icon toggle */
+.navbar .nav-link {
     color: rgb(255, 255, 255) !important;
-    padding-right: 20px !important;
+    background: rgb(33, 37, 41);
+    border-right: 1px solid rgb(255, 193, 7);
+    padding-top: 5px;
+    padding: 10px 20px 10px 5px !important;
+    margin-right: 5px;
+    margin-bottom: 2px;
 }
 
 .navbar .nav-link:hover {
     color: rgb(255, 193, 7) !important;
-    padding-top: 5px;
+    padding-top: 5px !important;
 }
 
 /* --------------Header-------------- */
@@ -115,23 +130,33 @@ body {
     min-width: 96%;
 }
 
-.QRcode {
-    max-width: 100px;
-}
-
 .card {
     margin-left: 50px;
     border-radius: 10px
 }
 
-.carte_img img {
+.card_img > img {
     border: 1px solid black;
     border-radius: 100%;
-    max-width: 250px;
 }
 
-.card_list_1 > li {
+.card_list > li {
     list-style: none;
+    margin-left: 30px;
+}
+
+.plusDinfo div img {
+    max-width: 150px;
+    height: auto;
+}
+
+img.curriculumVitae {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+img.curriculumVitae:hover {
+    border: 3px solid black;
 }
 
 /* --------------Contact-------------- */

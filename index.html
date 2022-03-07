@@ -11,14 +11,14 @@
 </head>
 <body>
     <!-- _______________Navbar_______________ -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
         <div class="container">
-          <a class="navbar-brand text-warning" href="#">Lauret Jason</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
-                <ul class="navbar-nav ms-auto py-4 py-lg-0">
+            <a class="navbar-brand text-warning fs-3 fw-bold" href="#">Lauret Jason</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bi bi-list fs-2"></i>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end ms-5" id="navbarNav">
+                <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link" href="#competence">Compétence</a></li>
                     <li class="nav-item"><a class="nav-link" href="#realisation">Réalisation</a></li>
                     <li class="nav-item"><a class="nav-link" href="#experience">Expérience</a></li>
@@ -33,7 +33,7 @@
     <section class="header_img">
         <div class="header_item container">
             <p class="fst-italic">Bonjour !</p>
-            <h1 class="text-uppercase text-center">Bienvenue dans mon portfolio</h1>
+            <h1 class="text-uppercase text-center">Bienvenue sur mon portfolio !</h1>
             <a class="btn btn-warning mt-5" href="#competence">Voir plus</a>
         </div>
     </section>
@@ -172,13 +172,13 @@
         <h1 class="titre_section">A propos de moi</h1>
         <p class="sous_titre">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
         <div class="row mt-5">
-            <div class="col-6">
+            <div class="col-12 col-lg-7">
                 <div class="card">
-                    <div class="card-body d-flex">
-                        <div class="carte_img">
+                    <div class="card-body row">
+                        <div class="card_img col-md-12 col-lg-4">
                             <img class="img-fluid" src="assets/img/aPropos/photo_Jason.jpg" alt="Photo de Jason">
                         </div>
-                        <ul class="card_list_1">
+                        <ul class="card_list col-md-12 col-lg-8">
                             <li><h3>Lauret Jason</h3></li>
                             <li><p class="mt-3"><span class="fw-bold">Profession:</span> Dévellopeur web</p></li>
                             <li><p><span class="fw-bold">Date de naissance:</span> 29/10/96</p></li>
@@ -192,27 +192,27 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="card-footer bg-white row">
+                    <!--<div class="card-footer bg-white row">
                         <p class="fw-bold mb-4">Vous pouvez voir aussi:</p>
-                        <div class="col-6">
+                        <div class="col-12 col-lg-6">
                             <div class="px-4">
                                 <div class="d-flex justify-content-evenly">
                                     <div class="text-center">
-                                        <img class="img-fluid QRcode" src="assets/img/aPropos/QRcode_Linkedin.png" alt="QRcode de mon compte linkedin">
+                                        <img class="img-fluid w-75" src="assets/img/aPropos/QRcode_Linkedin.png" alt="QRcode de mon compte linkedin">
                                     </div>
                                     <div class="text-center">
-                                        <img class="img-fluid QRcode" src="assets/img/aPropos/QRcode_GitHub.png" alt="QRcode de mon compte Github">
+                                        <img class="img-fluid w-75 ms-3" src="assets/img/aPropos/QRcode_GitHub.png" alt="QRcode de mon compte Github">
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <!-- Modal CV -->
-                        <!-- Button trigger modal -->
-                        <div class="col-6 d-flex justify-content-center align-items-center">
+                         Modal CV -->
+                        <!-- Button trigger modal 
+                        <div class="col-12 w-100 col-lg-6 d-flex justify-content-center align-items-center g-2">
                             <button type="button" class="btn" data-bs-toggle="modal" href="#modalCV">
                                 Consulter mon CV
-                            </button>
-                            <!-- Modal -->
+                            </button>-->
+                            <!-- Modal 
                             <div class="modal fade" id="modalCV" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
@@ -221,23 +221,45 @@
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body text-center">
-                                            <p>Consulter mon linkedin</p>
                                             <img class="img-fluid" src="assets/img/aPropos/cvJasonLauret.jpg" alt="CV de Jason Lauret">
                                         </div>
                                         <div class="modal-footer">
-                                            <p>Consuler mon Github</p>
                                             <button type="button" class="btn" data-bs-dismiss="modal">Fermer</button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div>-->
                 </div>
             </div>
-            <div class="col-5 text-center">
+            <div class="col-12 col-lg-4 text-center">
                 <div class="plusDinfo">
-                <h2>Plus d'info</h2>
+                    <p class="h4">Vous pouvez voir aussi</p>
+                    <div class="d-flex justify-content-evenly mt-5">
+                        <img class="img-fluid" src="assets/img/aPropos/QRcode_Linkedin.png" alt="">
+                        <img class="img-fluid" src="assets/img/aPropos/QRcode_GitHub.png" alt="">
+                        <a  data-bs-toggle="modal" href="#modalCV">
+                            <img class="curriculumVitae img-fluid" src="assets/img/aPropos/cvJasonLauret.jpg" alt="">
+                            <div class="modal fade" id="modalCV" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title fs-2" id="exampleModalLabel">Mon CV</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body text-center">
+                                            <img class="img-fluid" src="assets/img/aPropos/cvJasonLauret.jpg" alt="CV de Jason Lauret">
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn" data-bs-dismiss="modal">Fermer</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
