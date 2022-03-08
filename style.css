@@ -24,7 +24,7 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 1px;
-    margin-bottom: 70px;
+    margin-bottom: 30px;
 }
 
 .sous_titre {
@@ -32,7 +32,7 @@ body {
     color: rgb(148, 148, 148);
     font-size: 24px;
     font-style: italic;
-    margin-bottom: 70px;
+    margin-bottom: 100px;
 }
 /* --------------Navbar-------------- */
 .navbar {
@@ -48,10 +48,10 @@ body {
     border: 1px solid white !important;
     color: white !important;
 }
-
 .navbar-toggler-icon {
     color: white !important;
 }
+
 /* fin Icon toggle */
 .navbar .nav-link {
     color: rgb(255, 255, 255) !important;
@@ -62,10 +62,10 @@ body {
     margin-right: 5px;
     margin-bottom: 2px;
 }
-
 .navbar .nav-link:hover {
     color: rgb(255, 193, 7) !important;
     padding-top: 5px !important;
+    text-decoration: underline;
 }
 
 /* --------------Header-------------- */
@@ -75,7 +75,6 @@ body {
     background-size: cover;
     height: 92vh;
 }
-
 .header_item {
     min-height: 100%;
     display: flex;
@@ -84,24 +83,20 @@ body {
     align-items: center;
     color: white;
 }
-
 .header_item p {
     font-size: 50px;
 }
-
 .header_item h1 {
     font-size: 80px;
 }
 
 /* --------------Compétence-------------- */
-
 .competence {
     padding-top: 10vh;
     padding-bottom: 10vh;
 }
 
 /* --------------Réalisation-------------- */
-
 .realisation {
     background-color: rgb(245, 245, 245);
     padding-top: 10vh;
@@ -118,35 +113,31 @@ body {
 }
 
 /* Pour le fil d'ariane voir plus bas */
-
 /* --------------A propos-------------- */
 .aPropos {
     background-color: rgb(245, 245, 245);
     padding-top: 10vh;
     padding-bottom: 10vh;
 }
-
-#modalCV > .modal-dialog {
-    min-width: 96%;
+.aPropos .card {
+    padding: 40px;
 }
-
 .card {
     margin-left: 50px;
-    border-radius: 10px
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(126, 113, 113);
 }
-
 .card_img > img {
     border: 1px solid black;
     border-radius: 100%;
 }
-
 .card_list > li {
     list-style: none;
     margin-left: 30px;
 }
-
-.plusDinfo div img {
-    max-width: 150px;
+/*___Voir aussi___*/
+.plusDinfo img {
+    width: 150px;
     height: auto;
 }
 
@@ -154,13 +145,14 @@ img.curriculumVitae {
     border: 1px solid black;
     border-radius: 5px;
 }
-
 img.curriculumVitae:hover {
-    border: 3px solid black;
+    border: 2px solid black;
+}
+#modalCV > .modal-dialog {
+    min-width: 96%;
 }
 
 /* --------------Contact-------------- */
-
 .contact {
     background: url("assets/img/contact/map-image.png") no-repeat;
     background-color: #212529;
@@ -171,7 +163,6 @@ img.curriculumVitae:hover {
     padding-top: 10vh;
     padding-bottom: 10vh;
 }
-
 .info_contact {
     display: flex;
     justify-content: center;
@@ -181,7 +172,6 @@ img.curriculumVitae:hover {
     border-radius: 10px;
     min-height: 200px;
 }
-
 .info_contact:hover {
     background-color: rgba(255, 255, 255, 0);
     border: 1px solid rgb(255, 200, 0);
@@ -190,7 +180,6 @@ img.curriculumVitae:hover {
     cursor: default;
     align-self: start;
 }
-
 .info_contact > a {
     color: rgb(255, 200, 0);
 }
@@ -199,7 +188,6 @@ img.curriculumVitae:hover {
 }
 
 /* --------------Footer-------------- */
-
 footer {
     padding-top: 3vh;
     padding-bottom: 2vh;
@@ -213,10 +201,10 @@ footer {
     padding: 0;
     border-radius: 100%;
   }
+
 /*_____________________________________________________*/
   
 /* ___Modal___ */
-
 /* btn ouvrir modal */
 .realisation-section {
     max-width: 20rem;
@@ -257,29 +245,23 @@ footer {
     outline: none !important;
     box-shadow: none;
 }
-
 .btn-fermer-modal {
     width: 100px;
 }
-
 .btn-fermer-modal:hover {
     color: rgb(173, 173, 173);
     cursor: pointer;
 }
-
 .modal1 > .modal-dialog {
     min-width: 98%;
 }
-
 .modal2 > .modal-dialog {
     min-width: 70%;
 }
-
 .titre-modal h2 {
     font-size: 50px;
     font-weight: bold;
 }
-
 .modal2 {
     background-color: rgb(33, 37, 41);
 }
@@ -298,31 +280,25 @@ footer {
     "a d"
     "c b";
 }
-
 .img-limeuxMaurane img.btn-image, .img-limeuxMaurane img {
     border: 1px solid rgb(255, 193, 7);
     border-radius: 5px;
 }
-
 .img-limeuxMaurane img.btn-image:hover {
     border: 1px solid rgb(170, 133, 22);
 }
-
 .img-limeuxMaurane .img-1 {
     grid-area: a;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-
 .img-limeuxMaurane .img-2 {
     grid-area: b;
 }
-
 .img-limeuxMaurane .img-3 {
     grid-area: c;
 }
-
 .img-limeuxMaurane .img-4 {
     grid-area: d;
 }
@@ -337,34 +313,29 @@ footer {
     "a c"
     "a d";
 }
-
 .img-animalerie img.btn-image, .img-animalerie img {
     border: 1px solid rgb(255, 193, 7);
     border-radius: 5px;
 }
-
 .img-animalerie img.btn-image:hover {
     border: 1px solid rgb(170, 133, 22);
 }
-
 .img-animalerie .img-1 {
     grid-area: a;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-
 .img-animalerie .img-2 {
     grid-area: b;
 }
-
 .img-animalerie .img-3 {
     grid-area: c;
 }
-
 .img-animalerie .img-4 {
     grid-area: d;
 }
+
 /* ___Fin de Modal___ */
 
 /* ___Fil d'ariane___ */
