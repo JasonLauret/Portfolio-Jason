@@ -248,10 +248,6 @@ footer {
 .realisation-section .realisation-lien:hover .realisation-survol {
     opacity: 1;
 }
-.realisation-lien .img_card {
-    max-width: 318px;
-    height: auto;
-}
 
 /* Fin btn ouvrir modal */
 
