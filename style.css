@@ -89,6 +89,17 @@ body {
 .header_item h1 {
     font-size: 80px;
 }
+@media (max-width: 768px) {
+    .header_item h1 {
+        font-size: 60px;
+    } 
+}
+@media (max-width: 576px) {
+    .header_item h1 {
+        font-size: 40px;
+    } 
+}
+
 
 /* --------------Compétence-------------- */
 .competence {
@@ -158,10 +169,12 @@ img.curriculumVitae:hover {
     background-color: #212529;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 70vh;
     height: auto;
     padding-top: 10vh;
     padding-bottom: 10vh;
+}
+.block_contact {
+    padding-top: 80px;
 }
 .info_contact {
     display: flex;
