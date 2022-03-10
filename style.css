@@ -130,11 +130,7 @@ body {
     padding-top: 10vh;
     padding-bottom: 10vh;
 }
-.aPropos .card {
-    padding: 40px;
-}
 .card {
-    margin-left: 50px;
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgb(126, 113, 113);
 }
@@ -147,20 +143,25 @@ body {
     margin-left: 30px;
 }
 /*___Voir aussi___*/
+
 .plusDinfo img {
     width: 150px;
     height: auto;
 }
-
 img.curriculumVitae {
     border: 1px solid black;
     border-radius: 5px;
+    transition: transform 1s;
 }
 img.curriculumVitae:hover {
-    border: 2px solid black;
+    box-shadow: 3px 3px 10px rgb(177, 170, 170);
+    transform: scale(1.20);
 }
 #modalCV > .modal-dialog {
     min-width: 96%;
+}
+.QRcode, .curriculumVitae {
+    margin-bottom: 10px;
 }
 
 /* --------------Contact-------------- */

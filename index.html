@@ -171,15 +171,15 @@
     <section class="aPropos" id="aPropos">
         <h1 class="titre_section">A propos de moi</h1>
         <p class="sous_titre">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-        <div class="row mt-5">
-            <div class="col-12 col-lg-6 card">
-                <div class="card-body row">
+        <div class="row d-flex justify-content-between px-1 px-md-5">
+            <div class="card col-12 col-lg-6">
+                <div class="card-body row p-2 p-md-5">
                     <div class="card_img col-md-12 col-lg-4">
                         <img class="img-fluid" src="assets/img/aPropos/photo_Jason.jpg" alt="Photo de Jason">
                     </div>
                     <ul class="card_list col-md-12 col-lg-8">
                         <li><h3>Lauret Jason</h3></li>
-                        <li><p class="mt-3"><span class="fw-bold">Profession:</span> Dévellopeur web</p></li>
+                        <li><p class="mt-3"><span class="fw-bold">Profession:</span> Développeur web</p></li>
                         <li><p><span class="fw-bold">Date de naissance:</span> 29/10/96</p></li>
                         <li><p><span class="fw-bold">Langue parler:</span> Français (natif), Anglais (école)</p></li>
                         <li><span class="fw-bold">Activité et loisir:</span><br>
@@ -192,20 +192,19 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-12 col-lg-5 text-center">
-                <div class="plusDinfo">
-                    <p class="h4">Voir aussi:</p>
-                    <div class="d-flex justify-content-evenly mt-5">
-                        <img class="img_linkedin" src="assets/img/aPropos/QRcode_Linkedin.png" alt="">
-                        <img class="img_github" src="assets/img/aPropos/QRcode_GitHub.png" alt="">
-                        <a  data-bs-toggle="modal" href="#modalCV">
-                            <img class="curriculumVitae img-fluid"
-                                src="assets/img/aPropos/cvJasonLauret.jpg"
-                                alt="Curriculum Vitae de Jason">
-                        </a>
-                    </div>
+            <div class="plusDinfo col-12 col-lg-5 text-center pt-4 pt-lg-0">
+                <p class="h4">Voir aussi:</p>
+                <div class="d-flex flex-column align-items-center flex-md-row justify-content-evenly mt-5">
+                    <img class="QRcode" src="assets/img/aPropos/QRcode_Linkedin.png" alt="">
+                    <img class="QRcode" src="assets/img/aPropos/QRcode_GitHub.png" alt="">
+                    <a data-bs-toggle="modal" href="#modalCV">
+                        <img class="curriculumVitae"
+                            src="assets/img/aPropos/cvJasonLauret.jpg"
+                            alt="Curriculum Vitae de Jason">
+                    </a>
                 </div>
             </div>
+        </div>
     </section>
 
     <!-- _______________Contact_______________ -->
@@ -262,7 +261,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body text-center">
-                    <img class="" src="assets/img/aPropos/cvJasonLauret.jpg" alt="CV de Jason Lauret">
+                    <img class="img-fluid" src="assets/img/aPropos/cvJasonLauret.jpg" alt="CV de Jason Lauret">
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn" data-bs-dismiss="modal">Fermer</button>
