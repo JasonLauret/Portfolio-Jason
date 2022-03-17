@@ -188,8 +188,29 @@ img.curriculumVitae:hover {
 #modalCV > .modal-dialog {
     min-width: 96%;
 }
-.QRcode, .curriculumVitae {
+/*.QRcode, .curriculumVitae {
     margin-bottom: 10px;
+}*/
+.btn_reseaux, .curriculumVitae {
+    margin-bottom: 10px;
+}
+a.btn_reseaux {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0px 15px;
+    width: 150px;
+    height: 210px;
+    transition: transform 1s;
+}
+a.btn_reseaux:hover {
+    background-color: rgb(255, 193, 7);
+    box-shadow: 3px 3px 10px rgb(177, 170, 170);
+    transform: scale(1.20);
 }
 
 /* --------------Contact-------------- */
