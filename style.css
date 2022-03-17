@@ -89,15 +89,34 @@ body {
 .header_item h1 {
     font-size: 80px;
 }
+p.header_message {
+    color: rgb(226, 226, 226);
+    background-color: rgba(0, 0, 0, 0.692);
+    border: 1px solid rgb(255, 193, 7);
+    text-align: center;
+    font-size: 25px;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 35px;
+    max-width: 65%;
+    height: auto;
+
+}
 @media (max-width: 768px) {
     .header_item h1 {
         font-size: 60px;
-    } 
+    }
+    p.header_message {
+        font-size: 22px;
+    }
 }
 @media (max-width: 576px) {
     .header_item h1 {
         font-size: 40px;
-    } 
+    }
+    p.header_message {
+        font-size: 18px;
+    }
 }
 
 
