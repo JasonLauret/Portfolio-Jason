@@ -5,7 +5,7 @@ const myChart = new Chart(ctx, {
     labels: ['HTML', 'CSS', 'Bootstrap', 'Javascript', 'jQuery', 'Angular', 'PHP', 'Symfony', 'Wordpress', 'SQL'],
     datasets: [{
       label: 'Compétence',
-      data: [86, 81, 85, 63, 63, 66, 68, 70, 80, 71],
+      data: [86, 81, 85, 63, 60, 66, 68, 70, 80, 71],
       backgroundColor: [
         'rgba(255, 99, 132, 0.5)',
         'rgba(54, 162, 235, 0.5)',
