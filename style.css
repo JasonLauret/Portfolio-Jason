@@ -64,25 +64,29 @@ body {
 }
 
 /* --------------Header-------------- */
-.header_img {
+ .header_img {
     background: url("assets/img/header-bureau.jpg") no-repeat;
-    background-position: center center;
+    background-position: center;
     background-size: cover;
     min-height: 94vh;
 }
-div.header_item {
+.header_item{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    color: white;
-    padding-bottom: 20px;
+    height: 70vh;
 }
-.header_item p {
+.header_img p {
+    color: white;
     font-size: 50px;
 }
-.header_item h1 {
+.header_img h1 {
+    color: white;
     font-size: 80px;
+}
+.img {
+    position: relative;
 }
 p.header_message {
     color: rgb(226, 226, 226);
@@ -99,7 +103,45 @@ p.header_message {
 }
 p.header_message:hover {
     transform: scale(1.09);
+} 
+.btnDecouvrir{
+    position: absolute;
+    right: 49%;
+    top: 84%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    border: 3px solid rgba(255, 255, 255, 0.7);
+    border-radius: 50px;
+    font-size: 30px;
+    padding: 10px;
+    transition: color 0.9s, border 0.9s;
 }
+.btnDecouvrir:hover{
+    color: rgb(0, 0, 0);
+    border: 3px solid rgb(0, 0, 0);
+}
+.btnDecouvrir i.un{
+    transition: margin-top 0.1s;
+}
+.btnDecouvrir:hover i.un{
+    margin-top: 2px;
+}
+.btnDecouvrir i.deux{
+    transition: margin-top 0.5s;
+}
+.btnDecouvrir:hover i.deux{
+    margin-top: 10px;
+}
+.btnDecouvrir i.trois{
+    transition: margin-top 1s;
+}
+.btnDecouvrir:hover i.trois{
+    margin-top: 10px;
+}
+
 @media (max-width: 1200px) {    
     p.header_message {
         font-size: 20px;
