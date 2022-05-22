@@ -113,35 +113,37 @@ p.header_message:hover {
     align-items: center;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.7);
-    border: 3px solid rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.7);
     border-radius: 50px;
-    font-size: 30px;
+    font-size: 25px;
     padding: 10px;
     transition: color 0.9s, border 0.9s;
 }
 .btnDecouvrir:hover{
-    color: rgb(0, 0, 0);
-    border: 3px solid rgb(0, 0, 0);
+    color: rgb(255, 193, 7);
+    border: 1px solid rgb(255, 193, 7);
 }
 .btnDecouvrir i.un{
-    transition: margin-top 0.1s;
+    transition: all 0.1s ;
 }
 .btnDecouvrir:hover i.un{
     margin-top: 2px;
+    color: rgb(255, 193, 7);
 }
 .btnDecouvrir i.deux{
-    transition: margin-top 0.5s;
+    transition: all 0.5s;
 }
 .btnDecouvrir:hover i.deux{
     margin-top: 10px;
+    color: rgb(255, 193, 7);
 }
 .btnDecouvrir i.trois{
-    transition: margin-top 1s;
+    transition: all 1s;
 }
 .btnDecouvrir:hover i.trois{
     margin-top: 10px;
+    color: rgb(255, 193, 7);
 }
-
 @media (max-width: 1200px) {    
     p.header_message {
         font-size: 20px;
