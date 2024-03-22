@@ -2,10 +2,10 @@ const ctx = document.getElementById('myChart').getContext('2d');
 const myChart = new Chart(ctx, {
   type: 'bar',
   data: {
-    labels: ['HTML', 'CSS', 'Bootstrap', 'Javascript', 'jQuery', 'Angular', 'PHP', 'Symfony', 'Wordpress', 'SQL'],
+    labels: ['HTML', 'CSS', 'Bootstrap', 'Javascript', 'jQuery', 'Angular', 'Ionic', 'Java', 'Spring Boot', 'PHP', 'Symfony', 'Wordpress', 'SQL'],
     datasets: [{
       label: 'Compétence',
-      data: [86, 81, 85, 63, 60, 66, 68, 70, 80, 71],
+      data: [86, 81, 85, 63, 60, 66, 65, 60, 55, 68, 70, 80, 71],
       backgroundColor: [
         'rgba(255, 99, 132, 0.5)',
         'rgba(54, 162, 235, 0.5)',
@@ -16,7 +16,10 @@ const myChart = new Chart(ctx, {
         'rgba(160, 0, 35, 0.5)',
         'rgba(0, 94, 156, 0.5)',
         'rgba(151, 108, 0, 0.5)',
-        'rgba(0, 146, 146, 0.5)'
+        'rgba(0, 146, 146, 0.5)',
+        'rgba(0, 94, 15, 0.5)',
+        'rgba(142, 108, 0, 0.5)',
+        'rgba(0, 14, 46, 0.5)'
       ],
       hoverBackgroundColor: [
         'rgba(255, 99, 132)',
@@ -28,7 +31,10 @@ const myChart = new Chart(ctx, {
         'rgba(160, 0, 35)',
         'rgba(0, 94, 156)',
         'rgba(151, 108, 0)',
-        'rgba(0, 146, 146)'
+        'rgba(0, 146, 146)',
+        'rgba(0, 94, 15)',
+        'rgba(142, 108, 0)',
+        'rgba(0, 14, 46)'
       ],
       borderColor: [
         'rgba(255, 99, 132, 1)',
@@ -40,7 +46,10 @@ const myChart = new Chart(ctx, {
         'rgba(160, 0, 35, 1)',
         'rgba(0, 94, 156, 1)',
         'rgba(151, 108, 0, 1)',
-        'rgba(0, 146, 146, 1)'
+        'rgba(0, 146, 146, 1)',
+        'rgba(0, 94, 15, 1)',
+        'rgba(142, 108, 0, 1)',
+        'rgba(0, 14, 46, 1)'
       ],
       borderWidth: 1,
       hoverBorderWidth: 3,
