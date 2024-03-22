@@ -388,7 +388,8 @@ footer {
     box-shadow: none;
 }
 .btn-fermer-modal {
-    width: 100px;
+    /* width: 100px; */
+    font-size: 60px;
 }
 .btn-fermer-modal:hover {
     color: rgb(255, 193, 7);
