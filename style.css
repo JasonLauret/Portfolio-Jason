@@ -145,23 +145,17 @@ p.header_message:hover {
     color: rgb(255, 193, 7);
 }
 
-
-.btnDecouvrir_vtel{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.btnDecouvrir_vtel {
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.7);
-    border: 1px solid rgba(255, 255, 255, 0.7);
-    border-radius: 50px;
-    font-size: 25px;
-    padding: 10px;
     display: none;
+    background-color: rgb(255, 193, 7);
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
 }
-
-a.btnDecouvrir_vtel:focus,
-a.btnDecouvrir_vtel:active{
-    color: rgba(255, 255, 255, 0.7);
+.btnDecouvrir_vtel:hover {
+    color: white;
+    background-color: rgb(189, 142, 2);
 }
 
 
@@ -193,7 +187,7 @@ a.btnDecouvrir_vtel:active{
         display: none;
     }
     .btnDecouvrir_vtel {
-        display: flex;
+        display: block;
     }
 }
 
