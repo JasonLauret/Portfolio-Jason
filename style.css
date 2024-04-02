@@ -68,8 +68,8 @@ body {
     background: url("assets/img/header-bureau.jpg") no-repeat;
     background-position: center;
     background-size: cover;
-    min-height: 94vh;
-    padding-top: 25px;
+    min-height: 90vh;
+    /* padding-top: 25px; */
 }
 .header_item{
     display: flex;
