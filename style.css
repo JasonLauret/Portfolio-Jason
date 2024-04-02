@@ -68,7 +68,7 @@ body {
     background: url("assets/img/header-bureau.jpg") no-repeat;
     background-position: center;
     background-size: cover;
-    min-height: 80vh;
+    min-height: 70vh;
     /* padding-top: 25px; */
 }
 .header_item{
