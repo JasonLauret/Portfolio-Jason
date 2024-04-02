@@ -69,6 +69,7 @@ body {
     background-position: center;
     background-size: cover;
     min-height: 94vh;
+    padding-top: 25px;
 }
 .header_item{
     display: flex;
