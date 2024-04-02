@@ -191,7 +191,7 @@ p.header_message:hover {
 
 /* --------------Compétence-------------- */
 .competence {
-    padding-top: 12vh;
+    padding-top: 13vh;
     padding-bottom: 10vh;
 }
 @media screen and (max-width: 1050px) {
