@@ -158,9 +158,6 @@ p.header_message:hover {
     color: white;
     background-color: rgb(189, 142, 2);
 }
-
-
-
 @media (max-width: 1200px) {    
     p.header_message {
         font-size: 20px;
@@ -194,7 +191,7 @@ p.header_message:hover {
 
 /* --------------Compétence-------------- */
 .competence {
-    padding-top: 10vh;
+    padding-top: 9vh;
     padding-bottom: 10vh;
 }
 @media screen and (max-width: 1050px) {
