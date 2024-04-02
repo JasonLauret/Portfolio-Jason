@@ -144,6 +144,28 @@ p.header_message:hover {
     margin-top: 10px;
     color: rgb(255, 193, 7);
 }
+
+
+.btnDecouvrir_vtel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-radius: 50px;
+    font-size: 25px;
+    padding: 10px;
+    display: none;
+}
+
+a.btnDecouvrir_vtel:focus,
+a.btnDecouvrir_vtel:active{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+
 @media (max-width: 1200px) {    
     p.header_message {
         font-size: 20px;
@@ -161,11 +183,17 @@ p.header_message:hover {
 }
 @media (max-width: 576px) {
     .header_item h1 {
-        font-size: 40px;
+        font-size: 30px;
     }
     p.header_message {
         font-size: 15px;
         max-width: 100%;
+    }
+    .btnDecouvrir {
+        display: none;
+    }
+    .btnDecouvrir_vtel {
+        display: flex;
     }
 }
 
@@ -243,14 +271,25 @@ p.header_message:hover {
     list-style: none;
     margin-left: 30px;
 }
-@media screen and (max-width: 991px) {
-    .card_img > img{
+.activite_loisir {
+    margin-top: 20px;
+}
+.activite_loisir p {
+    margin: 0;
+}
+@media screen and (max-width: 767px) {
+    .card {
+        text-align: center;
+    }
+    .card_list {
+        margin-top: 25px;
+    }
+    .card_img > img {
         width: 350px;
     }
-}
-@media screen and (max-width: 400px) {
-    .card_img > img{
-        width: 300px;
+    .card li {
+        list-style: none;
+        margin-left: 0px;
     }
 }
 /*___Voir aussi___*/
